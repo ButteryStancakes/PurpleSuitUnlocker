@@ -7,7 +7,7 @@ namespace PurpleSuitUnlocker
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
-        const string PLUGIN_GUID = "butterystancakes.lethalcompany.purplesuitunlocker", PLUGIN_NAME = "Purple Suit Unlocker", PLUGIN_VERSION = "1.1.0";
+        const string PLUGIN_GUID = "butterystancakes.lethalcompany.purplesuitunlocker", PLUGIN_NAME = "Purple Suit Unlocker", PLUGIN_VERSION = "1.1.1";
         public static ConfigEntry<bool> configKeepTwoHanded;
 
         void Awake()
